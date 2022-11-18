@@ -1,0 +1,36 @@
+{
+    "collections": [{
+        "id": 1,
+        "name": "Plantas",
+        "email": "Sat@mail.com",
+        "numOfAvailableCards": "South street"
+    }, {
+        "id": 2,
+        "name": "Fútbol",
+        "email": "john@mail.com",
+        "numOfAvailableCards": "North street"
+    }, {
+        "id": 3,
+        "name": "Marvel",
+        "email": "robert@mail.com",
+        "numOfAvailableCards": "East street"
+    }, {
+        "id": 4,
+        "name": "Disney",
+        "email": "mani@mail.com",
+        "numOfAvailableCards": "West street"
+    }],
+    "comments": [{
+        "id": 1,
+        "body": "I will trade this card for 2",
+        "postId": 1
+    }],
+    "profile": {
+        "name": "Sandra Atenea",
+        "email": "Sat@mail.com",
+        "collections" : {
+            "Disney": "Collección de cards de Disney",
+            "Marvel": "Tengo dos cromos de marvel para intercambiar"
+        }
+    }
+}

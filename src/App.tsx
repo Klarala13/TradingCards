@@ -1,9 +1,10 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeStack from "./stacks/HomeStack";
 import ProfileStack from "./stacks/ProfileStack";
+import CollectionsStack from "./stacks/CollectionsStacks";
 import { AntDesign, FontAwesome5 } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
@@ -35,7 +36,7 @@ export default function App() {
           <Tab.Screen
             options={{
               tabBarIcon: () => (
-                <FontAwesome5 name="album-collection" size={24} color="black" />
+                <FontAwesome5 name="address-card" size={24} color="black" />
               ),
             }}
             name="Collections"

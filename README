@@ -1,0 +1,8 @@
+Download repo and run npm install
+
+For ios: npx expo run:ios
+
+Json Web Server:
+To start server json-server --watch cards.json
+Now if you go to http://localhost:3000/collections/, you'll get the collections
+
