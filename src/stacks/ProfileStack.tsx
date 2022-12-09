@@ -1,11 +1,12 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import ProfileScreen from '../screens/ProfileScreen';
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import ProfileScreen from "../screens/ProfileScreen";
 
 const Stack = createNativeStackNavigator();
 
-const ProfileStack = () => 
-<Stack.Navigator>
-  <Stack.Screen name="Profile" component={ProfileScreen} />
-</Stack.Navigator>
+const ProfileStack = () => (
+  <Stack.Navigator>
+    <Stack.Screen name="Profiles" component={ProfileScreen} />
+  </Stack.Navigator>
+);
 
-export default ProfileStack
+export default ProfileStack;
